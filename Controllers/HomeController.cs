@@ -14,9 +14,9 @@ namespace SimpleWebAPI.Controllers
         {
             try
             {
-                //Create Error for test api 
-                //int x = 0, y=1;
-                //int z = y/ x;
+                //Create Error for test api
+                int x = 0, y = 1;
+                int z = y / x;
 
                 List<Person> list = new List<Person>();
                 list.Add(new Person() { Id = 1, FirstName = "Venkat", LastName = "Kurivi", Description = "" });
